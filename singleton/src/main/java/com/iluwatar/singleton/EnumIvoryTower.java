@@ -27,10 +27,10 @@ package com.iluwatar.singleton;
  */
 public enum EnumIvoryTower {
 
-  INSTANCE;
+	INSTANCE;
 
-  @Override
-  public String toString() {
-    return getDeclaringClass().getCanonicalName() + "@" + hashCode();
-  }
+	@Override
+	public String toString() {
+		return getDeclaringClass().getCanonicalName() + "@" + hashCode();
+	}
 }
